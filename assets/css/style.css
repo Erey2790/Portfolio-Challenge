@@ -5,8 +5,9 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: darkorchid;
-    background-color: #121212;
+    
 }
+
 h1 {
     padding: 20px 35px;
     background-color: #121212;
@@ -42,4 +43,64 @@ header nav ul li a {
 header nav {
     float:inline-start;
     margin: 7px 0;
+}
+/* footer starts here */
+
+footer {
+    width: 100%;
+    padding: 40px;
+    background-color: #121212;
+    
+}
+
+footer h2 {
+    display: inline;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    line-height: 1.5;
+    
+}
+/* Hero style Start*/
+
+.hero {
+    background-image: url("../images/IMG_1002.jpg");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.hero {
+    text-align: center;
+    line-height: 1.8;
+    width: 80%; 
+    font-size: 20px;
+}
+.hero h2 {
+    font-size: 55px;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+}
+
+.calculator {
+    max-width: 5%;
+    height: auto;
+}
+.clock {
+    max-width: 5%;
+    height: auto;
+}
+.game {
+    max-width: 5%;
+    height: auto;
+}
+#my-work {
+    text-align: center;
+    overflow: auto;
+    margin: auto;
 }
