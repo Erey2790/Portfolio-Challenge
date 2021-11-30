@@ -65,42 +65,87 @@ footer div {
 }
 /* Hero style Start*/
 
-.hero {
-    background-image: url("../images/IMG_1002.jpg");
-    height: 400px;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    flex-wrap: wrap;
-}
 
 .hero {
     text-align: center;
     line-height: 1.8;
     width: 80%; 
     font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
 }
-.hero h2 {
+
+.hero img {
+    width: 300px;
+    margin: 20px;
+
+}
+.hero div  h2 {
     font-size: 55px;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
 }
+.about-me {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
 
 .calculator {
-    max-width: 5%;
-    height: auto;
+    background-image: url("../images/calculator.png");
+    background-size: cover;
+    width: 80%;
+    height: 600px;
+    margin: 10px;
+    border: 5px solid black;
+
 }
 .clock {
-    max-width: 5%;
-    height: auto;
+    background-size: cover;
+    background-image: url("../images/clock.png");
+    width: 40%;
+    height: 500px;
+    margin: 10px;
+    border: 5px solid black;
+
+
 }
 .game {
-    max-width: 5%;
-    height: auto;
+    background-size: cover;
+    background-image: url("../images/game.png");
+    width: 40%;
+    height: 500px;
+    margin: 10px;
+    border: 5px solid black;
 }
 #my-work {
     text-align: center;
-    overflow: auto;
+    /* overflow: auto; */
     margin: auto;
+}
+.container div p {
+    background-color: white;
+
+}
+
+#contact-me {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 60px;
 }
